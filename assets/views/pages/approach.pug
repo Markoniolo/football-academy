@@ -1,0 +1,12 @@
+extends ../components/_layout/layout
+
+block head
+  +title('Approach')
+
+block body
+  include ../components/approach/approach-cap
+  include ../components/gallery
+  +gallery('gallery_program')
+  include ../components/approach/why-we
+  include ../components/popup
+  +popup

@@ -1,0 +1,58 @@
+.dropdown
+  position: relative
+  cursor: pointer
+  &::before
+    content: ''
+    position: absolute
+    z-index: -1
+    width: 30px
+    height: 30px
+    top: 28px
+    right: 24px
+    +bgIcon('ic_dropdown_arrow.svg')
+    user-select: none
+    transition-property: transform
+    transition-duration: 0.3s
+    @include media(xs)
+      top: 16px
+
+.dropdown_active
+  &::before
+    transform: rotate(180deg)
+  .dropdown__list
+    display: block
+
+.dropdown__input
+  padding: 27px 60px 27px 24px
+  cursor: pointer
+
+.dropdown__placeholder
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5)
+
+.dropdown__placeholder_active
+  border-bottom: 2px solid $white
+
+.dropdown__list
+  display: none
+  position: absolute
+  top: 94px
+  left: 0
+  right: 0
+  z-index: 1
+  border-radius: 4px
+  overflow: hidden
+  @include media(xs)
+    top: 70px
+
+.dropdown__item
+  cursor: pointer
+  background-color: $black
+  color: $fc_white
+  padding: 23px 24px
+  letter-spacing: 0.02em
+  text-transform: uppercase
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5)
+  transition-property: background-color
+  transition-duration: 0.3s
+  &:hover
+    background: #181818

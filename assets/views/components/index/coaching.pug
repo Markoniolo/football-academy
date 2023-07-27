@@ -1,0 +1,66 @@
+-
+  const coachingSlider = [
+    {
+      left: 'coaching-3',
+      list: [
+        'Дебютировал в РПЛ в возрасте 16 лет, следующий дебют футболиста в таком возрасте состоялся только спустя 15 лет',
+        'Многократный участник Лиги чемпионов и лиги Европы УЕФА',
+        'Участник Чемпионата Европы 2016 в составе национальной сборной России',
+        'На высшем уровне провёл более 400 матчей',
+        'В списках 33 лучших футболистов чемпионата России (3): № 3 (2010), № 2 (2014/2015), № 1 (2015/2016)',
+        'Чемпион России: 2012/13',
+        'Обладатель Кубка России (3): 2008/09, 2010/11, 2012/13',
+        'Обладатель Суперкубка России (2): 2009, 2013'
+      ],
+      right: 'coaching-1'
+    },
+    {
+      left: 'coaching-1',
+      list: [
+        'Образование тренер, лицензия в UEFA тренер',
+        'Методист, тренер координатор Manchester City',
+        'Владелец, руководитель Guangzhou city football school',
+        'Руководитель проектов развития коммерческих школ ФК Локомотив',
+      ],
+      right: 'coaching-2'
+    },
+    {
+      left: 'coaching-2',
+      list: [
+        'Ученик Футбольной Академии «Локомотив Москва»',
+        'Футболист французских клубов“AS Saint-Priest” and «AS Saint-Etienne”',
+        'Футбольный агент (скаутинг, менеджмент, адаптация, презентация футболистов)',
+        'Самые значимые трансферы: Yohan Mollo и  Mehdi Zeffane',
+      ],
+      right: 'coaching-3'
+    }
+  ]
+
+section.coaching.js-hide-section#coaching
+  img.coaching__round(src=staticImg('coaching/ic_round.svg'))
+  img.coaching__line(src=staticImg('coaching/ic_line.svg'))
+  img.coaching__gate-left(src=staticImg('coaching/ic_gate_left.svg'))
+  img.coaching__gate-right(src=staticImg('coaching/ic_gate_right.svg'))
+  .coaching__cont.cont
+    h2.coaching__title.h2 coaching staff
+    .coaching__slider.js-coaching__slider
+      .swiper-wrapper
+        each slide in coachingSlider
+          .coaching__slide.swiper-slide
+            .coaching__slide-inner
+              .coaching__left
+                img.coaching__left-image(src=staticImg(`coaching/${slide.left}.png`) alt='')
+              .coaching__box
+                .coaching__name.h2
+                  span.coaching__name-green Мамаев
+                  |
+                  | Павел
+                .coaching__list-box
+                  ul
+                    each item in slide.list
+                      li= item
+              .coaching__right
+                img.coaching__right-image(src=staticImg(`coaching/${slide.right}.png`) alt='')
+      .coaching__slider-nav-box
+        button.coaching__slider-nav.coaching__slider-nav_prev.btn(type='button')
+        button.coaching__slider-nav.coaching__slider-nav_next.btn(type='button')

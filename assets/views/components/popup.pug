@@ -1,0 +1,33 @@
+mixin popup(mod, ageStatic)
+  include dropdown
+  .popup(class = mod ? mod : 'js-popup')
+    .popup__cont.cont
+      if (!mod)
+        button.popup__close.btn.js-popup-close(type='button')
+      .popup__thanks.h2 Thanks! Keep in touch
+      .popup__inner
+        h2.popup__title.h2 sign up for the first training session
+        .popup__text.p1 Fill out the form below to get into the first free trial workout.
+        form.popup__form.js-popup__form(action='my-url')
+          .popup__form-area
+            label.popup__label.popup__label_name
+              input.popup__input.input.js-popup__input_name(placeholder='Full name' minlength=5 maxlength=100 name='full-name')
+              .popup__error-message.p2 Name is not valid
+            label.popup__label.popup__label_age
+              +dropdown('Age', [{name:'age 5',value:'1'},{name:'age 6',value:'2'},{name:'age 7',value:'7'},{name:'age 8',value:'8'},], ageStatic)
+              .popup__error-message.p2 Age is empty
+            label.popup__label.popup__label_gender
+              +dropdown('Gender', [{name:'boy',value:'1'},{name:'girl',value:'2'}])
+              .popup__error-message.p2 Gender is empty
+            label.popup__label.popup__label_phone
+              input.popup__input.input.js-popup__input_phone(placeholder='Phone' maxlength=20 name='phone')
+              .popup__error-message.p2 Phone is not valid
+            label.popup__label.popup__label_email
+              input.popup__input.input.js-popup__input_email(placeholder='Email' name='email')
+              .popup__error-message.p2 Email is not valid
+            input.popup__input-hidden.js-popup__input-hidden(name='program-id' value='' type='hidden')
+          button.popup__submit.btn-white-transparent.js-popup__submit(disabled) send a request
+          .popup__agreement.p2
+            | By clicking the button you agree to the
+            |
+            a.link-white(href='#' target='_blank' rel='noopener') privacy policy

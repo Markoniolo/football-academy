@@ -1,0 +1,19 @@
+-
+  const proAdvantages = [
+    { image: 'pro-advantages-1', text: 'individual tasks' },
+    { image: 'pro-advantages-2', text: 'progress statistics for 1,3,6,9,12 months' },
+    { image: 'pro-advantages-3', text: 'the possibility of viewing in professional academies in Europe' },
+    { image: 'pro-advantages-4', text: 'formation and control of nutrition' },
+  ]
+
+section.pro-advantages
+  .pro-advantages__cont.cont
+    h2.pro-advantages__title.h2 Pro M Plus advantages
+    .pro-advantages__slider.js-pro-advantages__slider
+      .swiper-wrapper
+        each item in proAdvantages
+          .pro-advantages__slide.swiper-slide
+            img.pro-advantages__image(src=staticImg(`pro-advantages/${item.image}.png`) alt='')
+            .pro-advantages__text.h6= item.text
+    .pro-advantages__sign-up-box
+      button.pro-advantages__sign-up.btn-white-transparent.js-open-popup.h6(type='button') Enroll in Talented

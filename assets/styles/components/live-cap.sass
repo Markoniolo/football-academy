@@ -1,0 +1,100 @@
+.live-cap
+  position: relative
+  color: $fc_white
+
+.live-cap__image
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  height: 100%
+  object-fit: cover
+
+.live-cap__cont
+  position: relative
+  z-index: 1
+  background: linear-gradient(180deg, rgba(0, 0, 14, 0.6) 0%, rgba(0, 0, 14, 0.6) 100%)
+
+.live-cap__area
+  padding: 215px 0 64px
+  min-height: 724px
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  @include media(lg)
+    min-height: 799px
+    padding: 169px 0 97px
+  @include media(md)
+    min-height: 960px
+    padding: 156px 0 81px
+  @include media(xs)
+    min-height: 580px
+    padding: 104px 0 32px
+
+.live-cap__top
+  position: relative
+  @include media(sm)
+    display: flex
+    justify-content: space-between
+    align-items: center
+  @include media(xs)
+    flex-direction: column
+    align-items: flex-start
+
+.live-cap__caption
+  @include media(xs)
+    margin-bottom: 16px
+
+.live-cap__checkbox
+  padding: 3px 4px
+  position: absolute
+  z-index: 1
+  top: -10px
+  left: 50%
+  transform: translateX(-50%)
+  display: flex
+  border-radius: 120px
+  background-color: $white
+  @include media(sm)
+    position: static
+    transform: none
+
+.live-cap__checkbox-item
+  color: $fc_black
+  text-decoration: none
+  padding: 15px 24px
+  border-radius: 48px
+  text-transform: uppercase
+  transition-duration: 0.3s
+  transition-property: color
+  &:hover
+    color: #72c05f
+  &:active
+    color: #4B7C3F
+
+.live-cap__checkbox-item_active
+  cursor: default
+  background-color: $green
+  color: $fc_white
+  &:hover
+    color: $fc_white
+  &:active
+    color: $fc_white
+
+.live-cap__area
+
+.live-cap__date
+  margin-bottom: 8px
+  font-size: 14px
+  line-height: 24px
+  letter-spacing: 0.02em
+  font-weight: 700
+
+.live-cap__title
+  margin-bottom: 24px
+  max-width: 900px
+
+.live-cap__text
+  color: rgba($fc_white, .7)
+  max-width: 580px

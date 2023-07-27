@@ -1,0 +1,14 @@
+extends ../components/_layout/layout
+
+block head
+  +title('Pro m plus')
+
+block body
+  include ../components/pro/pro-cap
+  include ../components/pro/pro-about
+  include ../components/pro/pro-advantages
+  include ../components/gallery
+  +gallery('gallery_program')
+  include ../components/popup
+  +popup('popup_black popup_pro')
+  +popup

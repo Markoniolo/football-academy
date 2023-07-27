@@ -1,0 +1,51 @@
+.pro-cap
+  position: relative
+
+.pro-cap_bg
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  object-fit: cover
+  height: 100%
+
+.pro-cap__cont
+  position: relative
+  z-index: 1
+  min-height: 724px
+  display: flex
+  flex-direction: column
+  background: linear-gradient(180deg, rgba(0, 0, 14, 0.6) 0%, rgba(0, 0, 14, 0.6) 100%)
+  @include media(lg)
+    min-height: 800px
+  @include media(sm)
+    min-height: 960px
+  @include media(xs)
+    min-height: 580px
+
+.pro-cap__wrap
+  margin-top: auto
+  max-width: 960px
+  padding-bottom: 64px
+  @include media(sm)
+    padding-bottom: 35px
+  @include media(xs)
+    padding-bottom: 32px
+
+.pro-cap__title
+  margin-bottom: 24px
+  @include media(xs)
+    margin-bottom: 16px
+
+.pro-cap__text
+  margin-bottom: 32px
+
+.pro-cap__sign-up
+  padding: 24px
+  font-size: 14px
+  line-height: 24px
+  @include media(xs)
+    padding: 18px
+    font-size: 12px
+    line-height: 20px

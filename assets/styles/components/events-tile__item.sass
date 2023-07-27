@@ -1,0 +1,76 @@
+.events-tile__item
+  text-decoration: none
+  margin: 0 12px 24px
+  width: calc(33.33% - 24px)
+  &:hover
+    .events-tile__text
+      color: $fc_green
+  @include media(md)
+    width: calc(50% - 24px)
+  @include media(xs)
+    width: 100%
+    margin-bottom: 16px
+
+.events-tile__picture
+  position: relative
+
+.events-tile__tag
+  position: absolute
+  top: 0
+  left: 0
+  display: inline-block
+  padding: 8px
+  color: $fc_white
+  text-transform: uppercase
+
+.events-tile__tag_green
+  background-color: $green
+
+.events-tile__tag_brown
+  background-color: $brown
+
+.events-tile__image
+  height: 264px
+  object-fit: cover
+  @include media(lg)
+    height: 159px
+  @include media(xs)
+    height: 120px
+
+.events-tile__box
+  padding: 24px
+  @include media(lg)
+    padding: 16px 24px
+  @include media(md)
+    padding: 16px
+
+.events-tile__top
+  margin-bottom: 8px
+  display: flex
+  justify-content: space-between
+
+.events-tile__note
+  color: $fc_green
+  text-transform: uppercase
+
+.events-tile__date
+  color: rgba($fc_white, .7)
+
+.events-tile__text
+  height: 90px
+  color: $fc_white
+  overflow: hidden
+  text-overflow: ellipsis
+  display: -moz-box
+  -moz-box-orient: vertical
+  display: -webkit-box
+  -webkit-line-clamp: 3
+  -webkit-box-orient: vertical
+  line-clamp: 3
+  box-orient: vertical
+  transition-property: color
+  transition-duration: 0.3s
+  @include media(md)
+    height: 80px
+  @include media(xs)
+    height: 70px

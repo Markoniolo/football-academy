@@ -1,0 +1,17 @@
+include ../events-tile__item
+section.events-tile
+  .events-tile__cont.cont
+    .events-tile__filter
+      .events-tile__filter-item.events-tile__filter-item_active.h6 All event
+      a.events-tile__filter-item.link-white.h6(href='#') Only Upcoming events
+      a.events-tile__filter-item.link-white.h6(href='#') Only Past events
+    .events-tile__list
+      each item in [1,2,3,4,5,6,7,8,9]
+        +events-tile__item(item)
+    .events-tile__bottom
+      .events-tile__showing.h6
+        | showing:
+        .events-tile__showing-current 9
+        | /
+        .events-tile__showing-all 32
+      button.events-tile__more.btn-white-transparent(type='button') Load more

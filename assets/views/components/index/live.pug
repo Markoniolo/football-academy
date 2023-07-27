@@ -1,0 +1,49 @@
+section.live.js-hide-section.js-white-section
+  img.live__image.js-live__image_news.live__image_active(src=staticImg('cap/slide-1.jpg') loading="lazy")
+  img.live__image.js-live__image_news(src=staticImg('cap/slide-2.jpg') loading="lazy")
+  img.live__image.js-live__image_events(src=staticImg('live/live_bg.jpg') loading="lazy")
+  img.live__image.js-live__image_events(src=staticImg('program-cap/program-cap.jpg') loading="lazy")
+  .live__cont.cont
+    .live__area
+      .live__top
+        h2.live__title.h2 live
+        .live__checkbox
+          .live__checkbox-highlight.js-live__checkbox-highlight
+          button.live__checkbox-item.live__checkbox-item_active.h6.btn.js-live__checkbox-item(type='button' data-index=0) news
+          button.live__checkbox-item.h6.btn.js-live__checkbox-item(type='button' data-index=1) events
+      .live__block.live__block_news.live__block_active.js-live__block
+        .live__line
+          .live__text.h4.js-live__text The U7 team (2015) became the Champion of the KELME Cup tournament
+          a.live__more.h6.link-white(href='#') all news
+        .live__list.js-live__list
+          .swiper-wrapper
+            each item, index in [1,2]
+              a.live__item.swiper-slide.js-live__item(href='#' class = item === 1 ? 'live__item_hover' : false data-index=index)
+                .live__item-note.h6 news
+                if item === 1
+                  .live__item-text.js-live__item-text.p1.
+                    The U7 team (2015) became the Champion of the KELME Cup tournament
+                else
+                  .live__item-text.js-live__item-text.p1 Lorem ipsum
+                .live__timer.js-live__timer
+      .live__block.live__block_events.js-live__block
+        .live__line
+          .live__text.h4
+          a.live__more.h6.link-white(href='#') all events
+        .live__events-list.js-live__events-list
+          .swiper-wrapper
+            each item, index in [1,2]
+              a.live__events-item.swiper-slide.js-live__events-item(href='#' class = item === 1 ? 'live__events-item_hover' : false data-index=index)
+                .live__events-tag.h6(class = item === 1 ? 'live__events-tag_brown' : 'live__events-tag_green') upcoming event
+                img.live__events-image(src='https://via.placeholder.com/581x199' alt='')
+                .live__events-box
+                  .live__events-line
+                    .live__events-note event
+                    .live__events-date 20/12/2020
+                  if item === 1
+                    .live__events-text.js-live__events-text.p1 Lorem ipsum dolor
+                  else
+                    .live__events-text.js-live__events-text.p1.
+                      The U7 team (2015) became the Champion of the KELME Cup tournament.
+                      The U7 team (2015) became the Champion of the KELME Cup tournament
+                  .live__timer.js-live__timer

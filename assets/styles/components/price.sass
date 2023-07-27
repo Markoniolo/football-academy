@@ -1,0 +1,79 @@
+.price
+  margin-bottom: 200px
+  @include media(md)
+    margin-bottom: 100px
+  @include media(xs)
+    margin-bottom: 72px
+
+.price__cont
+
+.price__area
+  display: flex
+  border: 1px solid rgba(255, 255, 255, 0.5)
+  border-radius: 4px
+  padding: 40px
+  @include media(md)
+    flex-direction: column
+    align-items: flex-start
+  @include media(xs)
+    padding: 24px 24px 32px
+
+.price__left
+  margin-right: 90px
+  @include media(md)
+    margin-bottom: 85px
+    margin-right: 0
+  @include media(xs)
+    margin-bottom: 50px
+
+.price__title
+  margin-bottom: 32px
+  @include media(xs)
+    margin-bottom: 24px
+
+.price__top
+  margin-bottom: 12px
+  text-transform: uppercase
+
+.price__value
+  margin-bottom: 12px
+  padding-bottom: 12px
+  border-bottom: 1px solid $white
+
+.price__bottom
+  text-transform: uppercase
+  text-align: right
+
+.price__image
+  margin-left: auto
+  margin-right: 40px
+  width: 335px
+  height: 335px
+  align-self: center
+  @include media(md)
+    margin-right: 0
+    margin-left: 0
+    margin-bottom: 85px
+    width: 270px
+    height: 270px
+  @include media(xs)
+    margin-bottom: 45px
+    width: 170px
+    height: 170px
+
+.price__right
+  margin-left: auto
+  max-width: 582px
+  align-self: center
+
+.price__text
+  margin-bottom: 40px
+  @include media(md)
+    margin-bottom: 32px
+  @include media(xs)
+    margin-bottom: 24px
+
+.price__info
+  color: rgba($white, 0.6)
+  &:not(:last-of-type)
+    margin-bottom: 12px

@@ -1,0 +1,16 @@
+-
+  const programsTile = [
+    { age: '5/6' },
+    { age: '5/6' },
+    { age: '7/8' },
+    { age: '9/10' },
+    { age: '11/12' },
+    { age: '13/14' }
+  ]
+include ../program-tile-item
+section.programs.js-hide-section#programs
+  .programs__cont.cont
+    h2.programs__title.h2 Programs
+    .programs__tile
+      each tile, index in programsTile
+        +program-tile-item(tile)

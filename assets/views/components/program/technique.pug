@@ -1,0 +1,17 @@
+-
+  const techniqueList = [
+    { icon: 'ic_technique_1', text: 'Flexibility, dexterity' },
+    { icon: 'ic_technique_2', text: 'Cognitive abilities' },
+    { icon: 'ic_technique_3', text: 'Love for football' },
+    { icon: 'ic_technique_4', text: 'Coordination' },
+    { icon: 'ic_technique_5', text: 'Communication  and individual approach' },
+  ]
+
+section.technique
+  .technique__cont.cont
+    h2.technique__title.h2 Basics of the technique:
+    .technique__list
+      each item, index in techniqueList
+        .technique__item(class = index === techniqueList.length - 1 ? 'technique__item_wide' : false)
+          img.technique__icon(src=staticImg(`technique/${item.icon}.svg`) alt='')
+          .technique__text.h6= item.text

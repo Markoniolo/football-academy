@@ -1,0 +1,16 @@
+extends ../components/_layout/layout
+
+block head
+  +title('Program')
+
+block body
+  include ../components/program/program-cap
+  include ../components/program/technique
+  include ../components/gallery
+  +gallery('gallery_program')
+  include ../components/program/philosophy
+  include ../components/program/price
+  include ../components/popup
+  +popup('popup_black', true)
+  include ../components/program/other-programs
+  +popup

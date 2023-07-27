@@ -1,0 +1,8 @@
+include ../news-tile__item
+section.more-news
+  .more-news__cont.cont
+    h2.more-news__title.h2 more news
+    ul.more-news__list.js-more-news__list
+      .swiper-wrapper
+        each item in [1,2,3]
+          +news-tile__item('article')

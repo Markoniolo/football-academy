@@ -1,0 +1,11 @@
+mixin gallery(mod)
+  section.gallery.js-hide-section(class=mod ? mod : false)
+    .gallery__cont.cont
+      .gallery__slider.js-gallery__slider
+        button.gallery__slider-nav.gallery__slider-nav_prev(type='button')
+        button.gallery__slider-nav.gallery__slider-nav_next(type='button')
+        .swiper-wrapper
+          .gallery__slide.swiper-slide
+            img.gallery__image(src=staticImg('about/slide-1.jpg') alt='')
+          .gallery__slide.swiper-slide
+            img.gallery__image(src=staticImg('about/slide-2.jpg') alt='')

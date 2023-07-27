@@ -1,0 +1,67 @@
+$fc_black: #00000E
+$fc_white: #FFFFFF
+$fc_green: #5C914F
+$fc_brown: #A24936
+$fc_red: #CE2400
+
+$black: #00000E
+$white: #FFFFFF
+$green: #5C914F
+$brown: #A24936
+$red: #CE2400
+
+$title_font: 'Floripa', sans-serif
+
+$breakpoints: (xxs: 0, xs: 360px, sm: 744px, md: 1024px, lg: 1280px, xl: 1440px, xxl: 1920px)
+
+@function _breakpoint-next($bp)
+  @if map-has-key($breakpoints, $bp)
+    $breakpoint-bps: map-keys($breakpoints)
+    $n: index($breakpoint-bps, $bp)
+
+    @return if($n < length($breakpoint-bps), nth($breakpoint-bps, $n + 1), null)
+
+  @else
+    @return "Unfortunately, no value could be retrieved from `#{$bp}`. Available containers are: #{map-keys($breakpoints)}."
+
+@function _breakpoint-min($bp)
+  @if map-has-key($breakpoints, $bp)
+    $min: map-get($breakpoints, $bp)
+
+    @return if($min != 0, $min, null)
+
+  @else
+    @return "Unfortunately, no value could be retrieved from `#{$bp}`. Available containers are: #{map-keys($breakpoints)}."
+
+@function _breakpoint-max($bp)
+  @if map-has-key($breakpoints, $bp)
+    $next: _breakpoint-next($bp)
+
+    @return if($next, _breakpoint-min($next) - 0.02px, null)
+
+  @else
+    @return "Unfortunately, no value could be retrieved from `#{$bp}`. Available containers are: #{map-keys($breakpoints)}."
+
+@mixin media($bp-size)
+  $max: _breakpoint-max($bp-size)
+  @media (max-width: $max)
+    @content
+
+@mixin media_min($bp-size)
+  @media (min-width: $bp-size + 0.02 + px)
+    @content
+
+@mixin hover
+  @include media_min(1022)
+    @content
+
+$imgPath: '/statics/img/'
+
+@mixin bgImg($img)
+  background-image: url($imgPath + $img)
+
+@mixin bgIcon($img, $w: 100%, $h: 100%)
+  background-image: url($imgPath + $img)
+  background-size: $w $h
+  background-repeat: no-repeat
+  background-position: center center

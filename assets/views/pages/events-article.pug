@@ -1,0 +1,12 @@
+extends ../components/_layout/layout
+
+block head
+  +title('Events article')
+
+block body
+  include ../components/article/article
+  include ../components/article/share
+  +share('events')
+  include ../components/article/more-events
+  include ../components/popup
+  +popup

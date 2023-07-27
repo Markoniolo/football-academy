@@ -1,0 +1,16 @@
+extends ../components/_layout/layout
+
+block head
+  +title('Home')
+
+block body
+  include ../components/index/cap
+  include ../components/index/programs
+  include ../components/index/about
+  include ../components/gallery
+  +gallery('gallery_index')
+  include ../components/index/coaching
+  include ../components/index/live
+  include ../components/index/informer
+  include ../components/popup
+  +popup

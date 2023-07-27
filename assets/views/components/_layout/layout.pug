@@ -1,0 +1,17 @@
+include ../../_variables
+include _connect-style
+include _title
+
+doctype html
+html(lang='ru')
+  head
+    include _head
+    include header
+    block head
+  body
+    main.wrapper
+      block body
+      .menu-spacer.js-hide-section
+      include menu
+    include footer
+    include scripts

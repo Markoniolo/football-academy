@@ -1,0 +1,62 @@
+.why-we
+  position: relative
+  color: $fc_white
+  padding-bottom: 160px
+  @include media(lg)
+    padding-bottom: 151px
+  @include media(md)
+    padding-bottom: 109px
+  @include media(xs)
+    padding-bottom: 200px
+
+.why-we__gate
+  width: 204px
+  height: 480px
+  position: absolute
+  top: 0
+
+.why-we__gate_left
+  left: 0
+  @include media(md)
+    width: 150px
+    height: 352px
+  @include media(xs)
+    display: none
+
+.why-we__gate_right
+  right: 0
+  @include media(md)
+    display: none
+  @include media(xs)
+    display: block
+    width: 100px
+    height: 236px
+    top: unset
+    bottom: 30px
+
+.why-we__cont
+
+.why-we__box
+  max-width: 580px
+  margin: 0 328px 0 auto
+  @include media(lg)
+    max-width: 500px
+    margin: 0 284px 0 auto
+  @include media(md)
+    max-width: 445px
+    margin: 0 0 0 auto
+
+.why-we__title
+  margin-bottom: 40px
+  @include media(md)
+    margin-bottom: 24px
+
+.why-we__text
+  margin-bottom: 48px
+  @include media(md)
+    margin-bottom: 40px
+
+.why-we__button
+  padding: 24px
+  @include media(md)
+    padding: 18px

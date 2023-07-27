@@ -1,0 +1,89 @@
+.program-cap
+  position: relative
+
+.program-cap__image
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  object-fit: cover
+  height: 100%
+
+.program-cap__cont
+  position: relative
+  z-index: 1
+  color: $fc_white
+  background: linear-gradient(180deg, rgba(0, 0, 14, 0.6) 0%, rgba(0, 0, 14, 0.6) 100%)
+
+.program-cap__wrap
+  padding-bottom: 64px
+  min-height: 724px
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+  @include media(lg)
+    min-height: 800px
+    padding-bottom: 72px
+  @include media(sm)
+    min-height: 960px
+  @include media(xs)
+    min-height: 580px
+    padding-bottom: 24px
+
+.program-cap__title
+  @include media(xs)
+    font-size: 18px
+
+.program-cap__area
+  display: flex
+  justify-content: space-between
+  align-items: flex-end
+  @include media(xs)
+    flex-direction: column
+    align-items: flex-start
+
+.program-cap__left
+
+.program-cap__line
+  display: flex
+  margin-bottom: 8px
+
+.program-cap__line-item
+  text-transform: uppercase
+  &:not(:last-of-type)
+    margin-right: 36px
+    @include media(sm)
+      margin-right: 24px
+
+.program-cap__text
+  max-width: 581px
+  opacity: 0.7
+
+.program-cap__right
+  @include media(xs)
+    align-self: flex-end
+
+.program-cap__tags
+  display: flex
+  @include media(sm)
+    flex-direction: column
+  @include media(xs)
+    margin-top: 16px
+    flex-direction: row
+
+.program-cap__tag
+  padding: 8px 24px
+  border: 2px solid rgba(255, 255, 255, 0.5)
+  border-radius: 6px
+  text-transform: uppercase
+  @include media(xs)
+    padding: 4px 16px
+  &:not(:last-of-type)
+    margin-right: 20px
+    @include media(sm)
+      margin-right: 0
+      margin-bottom: 20px
+    @include media(xs)
+      margin-bottom: 0
+      margin-right: 8px

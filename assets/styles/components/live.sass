@@ -1,0 +1,309 @@
+.live
+  overflow: hidden
+  background-size: cover
+  position: relative
+
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    z-index: 1
+    background: linear-gradient(180deg, rgba(0, 0, 14, 0.6) 0%, rgba(0, 0, 14, 0.6) 100%)
+
+.live__image
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  height: 100%
+  object-fit: cover
+  opacity: 0
+  transition-property: opacity
+  transition-duration: 1s
+
+.live__image_active
+  opacity: 1
+
+.live__area
+  position: relative
+  z-index: 1
+  min-height: 1080px
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  padding-top: 202px
+  padding-bottom: 173px
+  @include media(lg)
+    padding-top: 156px
+    padding-bottom: 109px
+    min-height: 799px
+  @include media(md)
+    min-height: 960px
+    padding-top: 144px
+    padding-bottom: 125px
+  @include media(xs)
+    padding-top: 100px
+    padding-bottom: 92px
+    min-height: 580px
+
+.live__cont
+
+.live__top
+  position: relative
+  @include media(sm)
+    display: flex
+    justify-content: space-between
+    align-items: center
+  @include media(xs)
+    flex-direction: column
+    align-items: flex-start
+
+.live__title
+  color: $fc_white
+  @include media(xs)
+    margin-bottom: 16px
+
+.live__checkbox
+  padding: 3px 4px
+  position: absolute
+  z-index: 1
+  top: -10px
+  left: 50%
+  transform: translateX(-50%)
+  display: flex
+  border-radius: 120px
+  background-color: $white
+  @include media(sm)
+    position: relative
+    top: 0
+    left: 0
+    transform: none
+
+.live__checkbox-highlight
+  position: absolute
+  top: 3px
+  left: 4px
+  bottom: 3px
+  background-color: $green
+  z-index: -1
+  border-radius: 48px
+  transition-property: width, transform
+  transition-duration: 0.3s
+
+.live__checkbox-item-box
+
+.live__checkbox-item
+  padding: 15px 24px
+  text-transform: uppercase
+  color: $fc_black
+  transition-duration: 0.3s
+  transition-property: color
+  &:hover
+    color: #72c05f
+  &:active
+    color: #4B7C3F
+
+.live__checkbox-item_active
+  cursor: default
+  //background-color: $green
+  color: $fc_white
+  &:hover
+    color: $fc_white
+  &:active
+    color: $fc_white
+
+.live__block
+  display: none
+
+.live__block_active
+  display: block
+
+.live__block_news
+
+.live__line
+  margin-bottom: 40px
+  display: flex
+  justify-content: space-between
+  align-items: flex-end
+  @include media(lg)
+    margin-bottom: 32px
+  @include media(sm)
+    margin-bottom: 24px
+  @include media(xs)
+    margin-bottom: 16px
+
+.live__text
+  max-width: 784px
+  color: $fc_white
+  @include media(sm)
+    max-width: 564px
+  @include media(xs)
+    max-width: 244px
+
+.live__more
+  flex-shrink: 0
+  margin-left: 16px
+  color: $fc_white
+  text-transform: uppercase
+  text-decoration: none
+
+.live__list
+  display: flex
+
+.live__item
+  position: relative
+  text-decoration: none
+  width: 33.33%
+  border-radius: 4px
+  padding: 24px 24px 44px
+  background-color: $white
+  @include media(md)
+    padding: 16px 16px 32px
+    min-width: 340px
+  @include media(xs)
+    padding: 14px 16px 32px
+
+.live__item_hover
+  background-color: $green
+  .live__item-note
+    color: $fc_white
+  .live__item-text
+    color: $fc_white
+  .live__timer
+    animation: 10s timer linear
+    width: 100%
+
+@keyframes timer
+  0%
+    width: 0
+  100%
+    width: 100%
+
+.live__item-note
+  margin-bottom: 8px
+  color: $fc_green
+  text-transform: uppercase
+  @include media(sm)
+    margin-bottom: 12px
+
+.live__item-text
+  color: $fc_black
+  transition-property: color
+  transition-duration: 0.3s
+  height: 90px
+  overflow: hidden
+  text-overflow: ellipsis
+  display: -moz-box
+  -moz-box-orient: vertical
+  display: -webkit-box
+  -webkit-line-clamp: 3
+  -webkit-box-orient: vertical
+  line-clamp: 3
+  box-orient: vertical
+  @include media(sm)
+    height: 80px
+  @include media(xs)
+    height: 65px
+
+//.live__block_events
+
+.live__events-list
+  display: flex
+
+.live__events-item
+  position: relative
+  text-decoration: none
+  width: 33.33%
+  background-color: $white
+  color: $fc_green
+  @include media(md)
+    min-width: 328px
+
+.live__events-item_hover
+  background-color: $green
+  color: $fc_white
+  .live__timer
+    animation: 10s timer linear
+    width: 100%
+
+.live__events-tag
+  padding: 8px
+  color: $fc_white
+  position: absolute
+  top: 0
+  left: 0
+  z-index: 1
+  text-transform: uppercase
+
+.live__events-tag_green
+  background-color: $green
+
+.live__events-tag_brown
+  background-color: $brown
+
+.live__events-image
+  height: 199px
+  object-fit: cover
+  @include media(lg)
+    height: 159px
+  @include media(xs)
+    height: 120px
+
+.live__events-box
+  padding: 14px 24px 24px
+  @include media(lg)
+    padding: 14px 24px 40px
+  @include media(md)
+    padding: 14px 16px 32px
+
+.live__events-line
+  margin-bottom: 8px
+  display: flex
+  justify-content: space-between
+
+.live__events-note
+  text-transform: uppercase
+  font-size: 14px
+  line-height: 24px
+  font-weight: 700
+  @include media(xs)
+    font-size: 12px
+    line-height: 20px
+
+.live__events-date
+  font-weight: 700
+  font-size: 14px
+  line-height: 24px
+  @include media(xs)
+    font-size: 12px
+    line-height: 20px
+
+.live__events-text
+  transition-property: color
+  transition-duration: 0.3s
+  height: 90px
+  overflow: hidden
+  text-overflow: ellipsis
+  display: -moz-box
+  -moz-box-orient: vertical
+  display: -webkit-box
+  -webkit-line-clamp: 3
+  -webkit-box-orient: vertical
+  line-clamp: 3
+  box-orient: vertical
+  @include media(sm)
+    height: 80px
+  @include media(xs)
+    height: 65px
+
+.live__timer
+  height: 7px
+  background-color: $white
+  position: absolute
+  bottom: 0
+  left: 0
+  width: 0

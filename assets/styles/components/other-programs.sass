@@ -1,0 +1,39 @@
+.other-programs
+  overflow: hidden
+  color: $fc_white
+  padding-bottom: 100px
+  @include media(md)
+    padding-bottom: 76px
+  .swiper-wrapper
+    @include media(xs)
+      display: flex
+      flex-direction: column
+
+.other-programs__cont
+
+.other-programs__title
+  margin-bottom: 48px
+  @include media(md)
+    margin-bottom: 40px
+
+.other-programs__list
+  display: flex
+  margin: 0 -12px
+  @include media(xs)
+    flex-direction: column
+    margin: 0
+  .programs__tile-item
+    flex-shrink: 0
+    width: 581px
+    margin-bottom: 0
+    padding-bottom: 0
+    height: 400px
+    @include media(lg)
+      width: 368px
+      height: 320px
+    @include media(sm)
+      width: 328px
+    @include media(xs)
+      margin-bottom: 24px
+      width: 328px
+      height: 272px

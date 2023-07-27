@@ -1,0 +1,179 @@
+.cap
+  position: relative
+  background-image: url($imgPath + 'cap/cap-green.svg')
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  overflow: hidden
+
+.cap_parallax-active
+  .cap__slide_1
+    top: 50%
+  .cap__slide-image
+    transform: translateY(-550px)
+    @include media(lg)
+      transform: translateY(-505px)
+    @include media(sm)
+      transform: translateY(-100px)
+    @include media(xs)
+      transform: translateY(-50px)
+
+.cap_slide-active
+  .cap__slide_1
+    top: 0
+    .cap__slide-box
+      opacity: 1
+      transform: translateY(0)
+    .cap__slide-image
+      transform: translateY(0)
+  //.cap__slide_2
+  //  .cap__slide-image
+  //    transform: translateY(0)
+  //    @include media(lg)
+  //      object-position: center
+  .cap__slide
+    height: 100%
+  .cap__slide-image
+    height: 100%
+    transform: translateY(0)
+    object-position: center
+  .cap__box
+    opacity: 0
+    transform: translateY(-200px)
+
+.cap__slide
+  position: absolute
+  z-index: 1
+  top: 100%
+  right: 0
+  left: 0
+  height: 100%
+  overflow: hidden
+  will-change: transform
+  transition-property: top
+  transition-duration: 1s
+
+.cap__slide_1
+  top: 0
+  height: 50%
+  //transition-property: height, top
+  //transition-duration: 1s
+  //will-change: height
+
+//.cap__slide_2
+//  top: 100%
+//  z-index: 5
+
+.cap__slide_active
+  //z-index: 1
+  top: 0
+  .cap__slide-box
+    opacity: 1
+    transform: translateY(0)
+  .cap__slide-image
+    transform: translateY(0)
+
+.cap__slide-box
+  max-width: 550px
+  opacity: 0
+  transform: translateY(500px)
+  position: absolute
+  z-index: 1
+  min-height: 269px
+  left: 64px
+  bottom: 155px
+  color: $fc_white
+  transition-duration: 1s
+  transition-property: opacity, transform
+  @include media(lg)
+    bottom: 117px
+  @include media(sm)
+    left: 32px
+    bottom: 157px
+  @include media(xs)
+    left: 16px
+    bottom: 96px
+    min-height: 200px
+
+.cap__slide-number
+  margin-bottom: 24px
+  font-size: 24px
+  line-height: 36px
+  letter-spacing: 0.02em
+  font-family: $title_font
+  @include media(lg)
+    font-size: 20px
+    line-height: 30px
+  @include media(sm)
+    font-size: 18px
+    line-height: 27px
+  @include media(xs)
+    margin-bottom: 16px
+    font-size: 14px
+    line-height: 21px
+
+.cap__slide-title
+  margin-bottom: 24px
+
+//.cap__slide-text
+
+.cap__slide-image
+  object-fit: cover
+  transition-property: transform
+  transition-duration: 1s
+  transform: translateY(-225px)
+  @include media(lg)
+    transform: translateY(-180px)
+  @include media(sm)
+    transform: none
+    height: 120%
+
+.cap__cont
+  position: relative
+  z-index: 2
+  display: flex
+  align-items: center
+  height: 100vh
+  //min-height: 980px
+  @include media(lg)
+    //min-height: 799px
+  @include media(md)
+    min-height: 960px
+  @include media(xs)
+    min-height: 580px
+
+.cap__mouse
+  position: absolute
+  z-index: 20
+  right: 48px
+  bottom: 40px
+  width: 32px
+  height: 32px
+  @include media(md)
+    display: none
+
+.cap__box
+  color: $fc_white
+  max-width: 1000px
+  margin: 0 auto
+  text-align: center
+  transition-property: opacity, transform
+  transition-duration: 1s
+  @include media(xs)
+    max-width: 328px
+
+.cap__caption
+  margin-bottom: 24px
+  @include media(xs)
+    margin-bottom: 16px
+    font-size: 22px
+    line-height: 22px
+
+.cap__sign-up
+  padding: 24px
+  font-size: 14px
+  line-height: 24px
+  @include media(xs)
+    padding: 18px
+    font-size: 12px
+    line-height: 20px

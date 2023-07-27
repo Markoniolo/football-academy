@@ -1,0 +1,108 @@
+.header
+  padding-top: 40px
+  position: fixed
+  z-index: 100
+  top: 0
+  left: 0
+  right: 0
+  color: $fc_white
+  height: 160px
+  transition-property: opacity
+  transition-duration: .3s
+  @include media(xl)
+    padding-top: 24px
+    height: 124px
+  @include media(sm)
+    height: 112px
+  @include media(xs)
+    height: 80px
+    padding-top: 16px
+
+.header_hide
+  opacity: 0
+  pointer-events: none
+
+.header__cont
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+
+.header__lang-list
+  display: flex
+
+.header__lang-item
+  border-radius: 50%
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 56px
+  height: 56px
+  font-weight: 700
+  font-size: 14px
+  line-height: 24px
+  text-decoration: none
+  text-transform: uppercase
+
+  &:not(:last-of-type)
+    margin-right: 8px
+
+    @include media(xs)
+      margin-right: 0
+
+  @include media(xs)
+    width: 44px
+    height: 44px
+    font-size: 12px
+
+.header__lang-item_active
+  border: 1px solid rgba(255, 255, 255, 0.5)
+
+.header__logo-box
+  display: block
+  position: absolute
+  bottom: 0
+  left: 50%
+  transform: translateX(-50%)
+  width: 120px
+  height: 120px
+
+  @include media(xl)
+    width: 100px
+    height: 100px
+
+  @include media(sm)
+    width: 88px
+    height: 88px
+
+  @include media(xs)
+    width: 64px
+    height: 64px
+
+//.header__logo
+
+.header__phone
+  padding: 16px 24px
+  font-size: 14px
+  line-height: 24px
+  letter-spacing: normal
+
+  &:hover
+    .header__phone-icon path
+      fill: $black
+
+  @include media(xs)
+    padding: 13px 19px
+
+  span
+    display: block
+    @include media(xs)
+      display: none
+
+  .header__phone-icon
+    display: none
+    @include media(xs)
+      display: block
+
+.header__phone-icon path
+  transition-property: fill
+  transition-duration: .3s

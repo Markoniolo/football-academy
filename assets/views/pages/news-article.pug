@@ -1,0 +1,10 @@
+extends ../components/_layout/layout
+
+block head
+  +title('News article')
+
+block body
+  include ../components/article/article
+  include ../components/article/share
+  +share
+  include ../components/article/more-news

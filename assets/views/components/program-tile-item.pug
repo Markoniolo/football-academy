@@ -1,0 +1,25 @@
+mixin program-tile-item(tile, mod)
+  .programs__tile-item(class = mod ? mod : false)
+    .programs__tile-inner
+      .programs__tile-tags
+        .programs__tile-tag.h6 Boys
+        .programs__tile-tag.h6 girls
+      .programs__tile-note.h6 football players
+      .programs__tile-line
+        .programs__tile-age= tile.age
+        .programs__tile-age-span years old
+    .programs__tile-back
+      .programs__tile-note.h6 football players
+      .programs__tile-line.programs__tile-line_back
+        .programs__tile-age= tile.age
+        .programs__tile-age-span years old
+      p.programs__tile-desc.
+        It is recommended to stimulate interest through games. It helps to
+        improve concentration and constant attention. It is recommended to stimulate interest through games. It helps to
+                improve concentration and constant attention.
+      .programs__back-tags
+        button.programs__back-tag.h6.btn-white-transparent.js-open-popup(type='button' data-gender="1" data-age="1") Boys
+        button.programs__back-tag.h6.btn-white-transparent.js-open-popup(type='button' data-gender="2" data-age="1") girls
+      .programs__tile-btns
+        button.programs__tile-btn.btn-black.js-open-popup(type='button' data-program-id='2' data-age="1") sign up for a lesson
+        a.programs__tile-btn.btn-white-transparent(href='#') more

@@ -1,0 +1,11 @@
+.footer.js-hide-section
+  .footer__cont.cont
+    .footer__wrap
+      .footer__social-list
+        each item in ['tk','wp','in','tg']
+          .footer__social-item
+            a.footer__social-link(href='#' target='_blank' rel='noopener' class=`footer__social-link_${item}`)
+      .footer__policy-list
+        a.footer__policy-link.link-white(href='#' target='_blank' rel='noopener') Privacy policy
+        a.footer__policy-link.link-white(href='#' target='_blank' rel='noopener') Cookie policy
+      .footer__copyright Football Pro Academy © 2022

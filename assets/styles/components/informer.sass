@@ -1,0 +1,119 @@
+.informer
+  background-image: url($imgPath + 'informer/bg.svg')
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  color: $fc_white
+  overflow: hidden
+  @include media(sm)
+    background-image: url($imgPath + 'informer/bg_mob.svg')
+
+.informer__wrap
+  position: relative
+  display: flex
+  align-items: center
+  min-height: 980px
+  @include media(lg)
+    min-height: 799px
+  @include media(md)
+    min-height: 960px
+  @include media(xs)
+    min-height: 580px
+
+.informer__title
+  max-width: 1000px
+  width: 100%
+  margin: 0 auto 16px
+  @include media(lg)
+    margin: 0 auto 24px
+  @include media(xs)
+    margin: 0 auto 16px
+
+.informer__text
+  margin-bottom: 24px
+  @include media(xs)
+    margin-bottom: 16px
+
+.informer__button
+  padding: 24px
+  font-size: 14px
+  line-height: 24px
+  @include media(xs)
+    padding: 18px
+    font-size: 12px
+    line-height: 20px
+
+.informer__area
+  position: relative
+  z-index: 1
+  text-align: center
+  max-width: 1490px
+  width: 100%
+  margin: 0 auto
+  @include media(lg)
+    max-width: 723px
+
+.informer__image-left
+  position: absolute
+  z-index: -1
+  top: 23px
+  left: 97px
+  width: 270px
+  height: 340px
+  transform: rotate(-30deg)
+  @include media(lg)
+    top: 103px
+    left: -172px
+    width: 240px
+    height: 302px
+  @include media(md)
+    width: 177px
+    height: 222px
+    top: -90px
+    left: -50px
+  @include media(xs)
+    width: 120px
+    height: 150px
+    top: -62px
+    left: -28px
+
+.informer__image-right
+  position: absolute
+  z-index: -1
+  top: -24px
+  right: 147px
+  width: 132px
+  height: 166px
+  transform: rotate(20deg)
+  opacity: 0.5
+  @include media(lg)
+    top: -21px
+    right: -81px
+  @include media(md)
+    width: 110px
+    height: 138px
+    top: -106px
+    right: 21px
+  @include media(xs)
+    display: none
+
+.informer__image-ball
+  position: absolute
+  z-index: -1
+  right: 63px
+  bottom: -205px
+  width: 300px
+  height: 300px
+  @include media(lg)
+    width: 206px
+    height: 206px
+    bottom: -59px
+    right: -176px
+  @include media(md)
+    bottom: -155px
+    right: -40px
+  @include media(xs)
+    width: 129px
+    height: 128px
+    bottom: -130px
+    right: -54px

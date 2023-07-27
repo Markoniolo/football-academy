@@ -1,0 +1,9 @@
+extends ../components/_layout/layout
+
+block head
+  +title('News')
+
+block body
+  include ../components/live-cap
+  +live-cap('news')
+  include ../components/news/news-tile

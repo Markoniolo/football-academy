@@ -1,0 +1,72 @@
+.footer
+  padding: 32px 0 54px
+  text-align: center
+  @include media(lg)
+    padding: 42px 0 64px
+  @include media(md)
+    padding: 24px 0 40px
+  @include media(xs)
+    padding: 24px 0 48px
+
+.footer__cont
+
+.footer__wrap
+
+.footer__social-list
+  display: flex
+  justify-content: center
+  margin-bottom: 16px
+  @include media(xs)
+    margin-bottom: 24px
+
+.footer__social-item
+  &:not(:last-of-type)
+    margin-right: 16px
+    @include media(xs)
+      margin-right: 8px
+
+.footer__social-link
+  height: 56px
+  width: 56px
+  display: inline-block
+  border-radius: 50%
+  border: 1px solid rgba($white, .5)
+  transition-property: border-color
+  transition-duration: .3s
+  @include media(xs)
+    width: 36px
+    height: 36px
+    background-size: 24px 24px
+  &:hover
+    border: 1px solid rgba($white, 1)
+
+.footer__social-link_tk
+  +bgIcon('ic_tk_white.svg', 36px, 36px)
+
+.footer__social-link_wp
+  +bgIcon('ic_wp_white.svg', 36px, 36px)
+
+.footer__social-link_in
+  +bgIcon('ic_in_white.svg', 36px, 36px)
+
+.footer__social-link_tg
+  +bgIcon('ic_tg_white.svg', 36px, 36px)
+
+.footer__policy-list
+  display: flex
+  justify-content: center
+  margin-bottom: 8px
+  @include media(xs)
+    margin-bottom: 16px
+
+.footer__policy-link
+  font-weight: 600
+  font-size: 14px
+  line-height: 24px
+  &:first-of-type
+    margin-right: 24px
+
+.footer__copyright
+  font-weight: 400
+  font-size: 14px
+  line-height: 24px

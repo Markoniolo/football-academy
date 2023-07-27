@@ -1,0 +1,9 @@
+extends ../components/_layout/layout
+
+block head
+  +title('Events')
+
+block body
+  include ../components/live-cap
+  +live-cap('events')
+  include ../components/events/events-tile

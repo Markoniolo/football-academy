@@ -1,0 +1,239 @@
+.coaching
+  position: relative
+  padding-bottom: 196px
+  padding-top: 196px
+  background-size: cover
+  @include media(lg)
+    padding-top: 141px
+    padding-bottom: 141px
+  @include media(sm)
+    padding-top: 125px
+    padding-bottom: 125px
+
+.coaching__round
+  position: absolute
+  top: 50%
+  right: 50%
+  transform: translate(50%, -50%)
+  width: 386px
+  height: 386px
+  opacity: 0.5
+  @include media(md)
+    display: none
+
+.coaching__line
+  position: absolute
+  width: 3px
+  top: 0
+  bottom: 0
+  left: 50%
+  height: 100%
+  transform: translateX(-50%)
+  opacity: 0.5
+  @include media(md)
+    display: none
+
+.coaching__gate-left
+  position: absolute
+  left: 0
+  top: 50%
+  transform: translateY(-50%)
+  width: 204px
+  height: 480px
+  opacity: 0.5
+  @include media(md)
+    display: none
+
+.coaching__gate-right
+  position: absolute
+  right: 0
+  top: 50%
+  transform: translateY(-50%)
+  width: 204px
+  height: 480px
+  opacity: 0.5
+  @include media(md)
+    display: none
+
+.coaching__cont
+  position: relative
+  z-index: 1
+
+.coaching__title
+  margin-bottom: 24px
+  max-width: 500px
+
+.coaching__slider
+  position: relative
+  overflow: hidden
+  margin: 0 -64px
+  @include media(md)
+    margin: 0 -8px
+  @include media(sm)
+    margin: 0
+
+.coaching__slider-nav-box
+  @include media(md)
+    display: flex
+    justify-content: center
+    margin-top: 72px
+  @include media(xs)
+    margin-top: -40px
+
+.coaching__slider-nav
+  position: absolute
+  z-index: 5
+  top: 306px
+  width: 80px
+  height: 80px
+  border-radius: 50%
+  background-color: $green
+  +bgIcon('coaching/ic_arrow_left_white.svg', 17px, 16px)
+  transition-property: background-color
+  transition-duration: .3s
+  @include media(md)
+    position: static
+  @include media(xs)
+    width: 60px
+    height: 60px
+    +bgIcon('coaching/ic_arrow_left_white.svg', 13px, 13px)
+  &:hover
+    background-color: #72C05F
+  &:active
+    background-color: #4B7C3F
+
+.coaching__slider-nav_prev
+  left: 24px
+  @include media(md)
+    margin-right: 24px
+    left: 8px
+  @include media(sm)
+    left: 0
+
+.coaching__slider-nav_next
+  right: 24px
+  transform: rotate(180deg)
+  @include media(md)
+    right: 8px
+  @include media(sm)
+    right: 0
+
+.coaching__slide
+
+.coaching__slide-inner
+  display: flex
+  align-items: flex-start
+  @include media(xs)
+    flex-direction: column
+    align-items: center
+
+.coaching__left
+  margin-right: 25px
+  width: 342px
+  flex-shrink: 0
+  position: relative
+  margin-top: 95px
+  @include media(lg)
+    margin-top: 62px
+    margin-right: -82px
+  @include media(md)
+    display: none
+
+  &::before
+    content: ''
+    position: absolute
+    z-index: 1
+    height: 138px
+    bottom: 0
+    left: 0
+    right: 0
+    background: linear-gradient(180deg, rgba(0, 0, 14, 0) 0%, rgba(0, 0, 14, 0.857292) 77%, #00000E 97.91%)
+
+.coaching__left-image
+  opacity: 0.3
+
+.coaching__box
+  padding-top: 178px
+  min-width: 550px
+  @include media(lg)
+    padding-top: 72px
+    min-width: auto
+  @include media(md)
+    padding-top: 19px
+    min-width: 430px
+  @include media(xs)
+    padding-top: 0
+    min-width: auto
+
+.coaching__name
+  margin-bottom: 72px
+  @include media(md)
+    margin-bottom: 43px
+  @include media(xs)
+    margin-bottom: 32px
+
+.coaching__name-green
+  display: block
+  font-family: $title_font
+  color: $fc_green
+
+.coaching__list-box
+  ul
+    position: relative
+    z-index: 1
+  li
+    padding-left: 38px
+    position: relative
+    font-size: 20px
+    line-height: 20px
+    @include media(md)
+      padding-left: 27px
+      font-size: 18px
+      line-height: 18px
+    @include media(xs)
+      font-size: 16px
+      line-height: 16px
+    &:not(:last-child)
+      margin-bottom: 40px
+      @include media(md)
+        margin-bottom: 24px
+    &::before
+      content: ''
+      position: absolute
+      top: 10px
+      left: 20px
+      width: 3px
+      height: 3px
+      background-color: $white
+      border-radius: 50%
+      @include media(md)
+        top: 8px
+        left: 12px
+
+.coaching__right
+  margin-right: 112px
+  width: 580px
+  flex-shrink: 0
+  position: relative
+  @include media(lg)
+    width: 447px
+    margin-right: 0
+  @include media(md)
+    width: 281px
+    margin-top: -35px
+  @include media(xs)
+    margin-top: 0
+  &::before
+    content: ''
+    position: absolute
+    height: 261px
+    bottom: 0
+    left: 0
+    right: 0
+    background: linear-gradient(180deg, rgba(0, 0, 14, 0) 0%, rgba(0, 0, 14, 0.857292) 77%, #00000E 97.91%)
+    @include media(lg)
+      height: 197px
+    @include media(md)
+      height: 124px
+
+.coaching__right-image

@@ -1,0 +1,49 @@
+.btn
+  outline: none
+  border: none
+  background: transparent
+
+.btn-black
+  @extend .btn
+  display: inline-block
+  border-radius: 4px
+  background-color: $black
+  color: $fc_white
+  text-transform: uppercase
+  font-weight: 700
+  letter-spacing: 0.02em
+  cursor: pointer
+  text-decoration: none
+  text-align: center
+  transition-property: color
+  transition-duration: 0.3s
+  &:hover
+    color: #72C05F
+  &:disabled
+    background-color: #3E3E41
+    color: rgba(#FFFFFF, .5)
+  &:active
+    color: #4B7C3F
+
+.btn-white-transparent
+  @extend .btn
+  color: $fc_white
+  border: 1px solid rgba(255, 255, 255, 0.5)
+  border-radius: 4px
+  text-decoration: none
+  text-transform: uppercase
+  font-weight: 700
+  letter-spacing: 0.02em
+  text-align: center
+  transition-property: color, background-color
+  transition-duration: 0.3s
+  &:hover:not(:disabled)
+    color: #72C05F
+    background-color: $white
+  &:disabled
+    background-color: transparent
+    color: #3E3E41
+    border: 1px solid #3E3E41
+    cursor: default
+  &:active:not(:disabled)
+    color: #4B7C3F

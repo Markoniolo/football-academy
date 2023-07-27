@@ -1,0 +1,103 @@
+.about
+  color: $fc-white
+  //padding-top: 200px
+  padding-bottom: 119px
+  @include media(lg)
+    padding-bottom: 80px
+    //padding-top: 156px
+  @include media(sm)
+    //padding-top: 144px
+    padding-bottom: 68px
+  @include media(xs)
+    //padding-top: 112px
+    padding-bottom: 32px
+
+//.about__cont
+
+.about__top
+  display: flex
+  justify-content: space-between
+  margin-bottom: 78px
+  padding-bottom: 74px
+  border-bottom: 1px solid $white
+  @include media(lg)
+    margin-bottom: 80px
+    padding-bottom: 0
+    border-bottom: none
+  @include media(md)
+    display: block
+    margin-bottom: 64px
+  @include media(xs)
+    margin-bottom: 32px
+
+.about__title
+  width: 50%
+  padding-right: 24px
+  flex-shrink: 0
+  @include media(md)
+    margin-bottom: 32px
+  @include media(xs)
+    margin-bottom: 24px
+
+.about__text
+  max-width: 730px
+  //width: calc(50% - 24px)
+  @include media(xs)
+    max-width: 100%
+    font-size: 18px
+    line-height: 22px
+
+.about__text_right
+  margin-right: 166px
+  margin-top: 13px
+  @include media(lg)
+    margin-right: 0
+    margin-top: 0
+  @include media(md)
+    max-width: 445px
+    width: 100%
+    margin-left: auto
+
+.about__text-box
+  flex-shrink: 0
+  width: 50%
+  padding-right: 24px
+  @include media(md)
+    width: 100%
+    padding-right: 0
+
+.about__text_left
+  @include media(lg)
+    max-width: 460px
+  @include media(md)
+    max-width: 680px
+    width: 100%
+    margin-bottom: 32px
+  @include media(xs)
+    margin-bottom: 16px
+
+.about__bottom
+  display: flex
+  justify-content: space-between
+  @include media(md)
+    display: block
+
+.about__small-text-box
+  max-width: 730px
+  width: 100%
+  margin-right: 166px
+
+.about__small-text
+  margin-right: auto
+  max-width: 471px
+  font-size: 20px
+  line-height: 24px
+  @include media(md)
+    max-width: 445px
+    width: 100%
+    margin-left: auto
+    margin-right: 0
+  @include media(xs)
+    font-size: 16px
+    line-height: 22px
+    max-width: 240px

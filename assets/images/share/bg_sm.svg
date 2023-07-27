@@ -1,0 +1,36 @@
+<svg width="744" height="960" viewBox="0 0 744 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_913_3846)">
+<rect width="744" height="960" fill="#5C914F"/>
+<g opacity="0.4">
+<rect opacity="0.5" width="744" height="3" transform="matrix(1 0 0 -1 0 482)" fill="white"/>
+<circle cx="372" cy="480" r="103.5" stroke="white" stroke-opacity="0.5" stroke-width="3"/>
+<g opacity="0.5">
+<mask id="path-3-inside-1_913_3846" fill="white">
+<path d="M172 960V815H572V960H172Z"/>
+</mask>
+<path d="M172 815V812H169V815H172ZM572 815H575V812H572V815ZM175 960V815H169V960H175ZM172 818H572V812H172V818ZM569 815V960H575V815H569Z" fill="white" mask="url(#path-3-inside-1_913_3846)"/>
+<mask id="path-5-inside-2_913_3846" fill="white">
+<path d="M292.833 960V901.667H452.833V960H292.833Z"/>
+</mask>
+<path d="M292.833 901.667V898.667H289.833V901.667H292.833ZM452.833 901.667H455.833V898.667H452.833V901.667ZM295.833 960V901.667H289.833V960H295.833ZM292.833 904.667H452.833V898.667H292.833V904.667ZM449.833 901.667V960H455.833V901.667H449.833Z" fill="white" mask="url(#path-5-inside-2_913_3846)"/>
+<path d="M310.333 816.667C310.333 816.667 329.02 790 372 790C414.98 790 433.667 816.667 433.667 816.667" stroke="white" stroke-width="3"/>
+</g>
+<g opacity="0.5">
+<mask id="path-8-inside-3_913_3846" fill="white">
+<path d="M172 0V145L572 145V0L172 0Z"/>
+</mask>
+<path d="M172 145V148H169V145H172ZM572 145H575V148H572V145ZM175 0V145H169V0L175 0ZM172 142L572 142V148L172 148V142ZM569 145V0L575 0V145H569Z" fill="white" mask="url(#path-8-inside-3_913_3846)"/>
+<mask id="path-10-inside-4_913_3846" fill="white">
+<path d="M292.833 0V58.3333L452.833 58.3333V0L292.833 0Z"/>
+</mask>
+<path d="M292.833 58.3333V61.3333H289.833V58.3333H292.833ZM452.833 58.3333H455.833V61.3333H452.833V58.3333ZM295.833 0V58.3333H289.833V0L295.833 0ZM292.833 55.3333L452.833 55.3333V61.3333L292.833 61.3333V55.3333ZM449.833 58.3333V0L455.833 0V58.3333H449.833Z" fill="white" mask="url(#path-10-inside-4_913_3846)"/>
+<path d="M310.333 143.333C310.333 143.333 329.02 170 372 170C414.98 170 433.667 143.333 433.667 143.333" stroke="white" stroke-width="3"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_913_3846">
+<rect width="744" height="960" fill="white"/>
+</clipPath>
+</defs>
+</svg>

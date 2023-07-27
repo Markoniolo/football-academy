@@ -1,0 +1,21 @@
+mixin live-cap(mod)
+  section.live-cap.js-white-section
+    img.live-cap__image(src=staticImg('live-cap-bg.jpg') alt='')
+    .live-cap__cont.cont
+      .live-cap__area
+        .live-cap__top
+          h2.live-cap__caption.h2 live
+          .live-cap__checkbox
+            if mod === 'news'
+              .live-cap__checkbox-item.live-cap__checkbox-item_active.h6.btn news
+              a.live-cap__checkbox-item.h6.btn(href='/events.html') events
+            else
+              a.live-cap__checkbox-item.h6.btn(href='/news.html') news
+              .live-cap__checkbox-item.live-cap__checkbox-item_active.h6.btn events
+        .live-cap__box
+          .live-cap__date 20/10/2020
+          h1.live-cap__title.h4
+            a.link-white(href='#') The U7 team (2015) became the Champion of the KELME Cup tournament
+          p.live-cap__text.p1.
+            In our Football Academy, sports traditions are combined with a modern approach.
+            The high-skill trainers give attentive attitude to young athletes

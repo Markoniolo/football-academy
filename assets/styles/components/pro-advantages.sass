@@ -1,0 +1,55 @@
+.pro-advantages
+  overflow: hidden
+  margin-bottom: 100px
+  @include media(md)
+    margin-bottom: 72px
+
+.pro-advantages__cont
+
+.pro-advantages__title
+  margin-bottom: 64px
+  @include media(xs)
+    margin-bottom: 40px
+
+.pro-advantages__slider
+  margin-bottom: 40px
+  .swiper-wrapper
+    align-items: stretch
+
+.pro-advantages__slide
+  margin-right: 24px
+  width: 430px
+  height: auto
+  display: flex
+  flex-direction: column
+  @include media(lg)
+    width: 368px
+  @include media(md)
+    width: 328px
+  @include media(xs)
+    margin-right: 8px
+
+.pro-advantages__image
+  height: 287px
+  object-fit: cover
+  @include media(lg)
+    height: 240px
+  @include media(md)
+    height: 200px
+
+.pro-advantages__text
+  flex-grow: 1
+  padding: 14px 24px
+  background-color: $green
+  text-transform: uppercase
+  @include media(md)
+    padding: 14px 16px
+
+.pro-advantages__sign-up-box
+  text-align: center
+
+.pro-advantages__sign-up
+  margin: 0 auto
+  padding: 24px
+  @include media(xs)
+    padding: 18px

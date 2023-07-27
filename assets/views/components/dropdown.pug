@@ -1,0 +1,7 @@
+mixin dropdown(name, list, ageStatic)
+  .dropdown.js-dropdown(data-age-static = ageStatic ? '1' : false)
+    input.js-dropdown__input(name=name placeholder=name readonly type='hidden')
+    .dropdown__placeholder.input.js-dropdown__placeholder= name
+    .dropdown__list
+      each item in list
+        .dropdown__item.js-dropdown__item.h6(data-value=item.value data-name=item.name)= item.name
