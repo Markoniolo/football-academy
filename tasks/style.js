@@ -21,9 +21,8 @@ const style = function () {
       .pipe(sass().on('error', sass.logError))
       .pipe(autoPrefixer())
       .pipe(gcmq())
-      .pipe(cleanCSS({ level: 2 }))
+      .pipe(cleanCSS({ level: 2, format: 'beautify' }))
       .pipe(dest(`${env.outputFolder}/statics/css`))
-      .pipe(dest(`${env.outputBackFolder}/statics/style`))
   }
   return src(path.pages)
     .pipe(header('@import "../variables"\n'))

@@ -48,7 +48,6 @@ const script = function () {
     return src(path.entry)
       .pipe(webpack(webpackConfig()))
       .pipe(dest(`${env.outputFolder}/statics/js`))
-      // .pipe(dest(`${env.outputBackFolder}/statics/js`))
   }
   return src(path.entry)
   .pipe(webpack(webpackConfig()))
