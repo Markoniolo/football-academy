@@ -19,7 +19,7 @@ const webpackConfig = function () {
     output: {
       filename: '[name].js',
     },
-    devtool: env.production ? '' : 'source-map',
+    devtool: env.production ? false : 'source-map',
     module: {
       rules: [{
         test: /\.m?js$/,
