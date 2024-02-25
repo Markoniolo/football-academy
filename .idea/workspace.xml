@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef5301e9-95e6-45cf-abea-a790d659d16d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Floripa.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Floripa.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Montserrat-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about/slide-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about/slide-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/cap/cap-green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/cap/cap-green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/cap/slide-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/cap/slide-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/coaching/coaching-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/coaching/coaching-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/coaching/coaching-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/coaching/ic_arrow_left_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/coaching/ic_gate_left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/coaching/ic_gate_right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/coaching/ic_line.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/coaching/ic_round.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/contact-map/contact-placemark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon/apple-touch-icon-114x114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon/apple-touch-icon-120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon/apple-touch-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon/apple-touch-icon-152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon/apple-touch-icon-57x57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon/apple-touch-icon-60x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon/apple-touch-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon/apple-touch-icon-76x76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon/favicon-128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon/favicon-196x196.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon/favicon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon/mstile-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon/mstile-310x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon/mstile-310x310.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon/mstile-70x70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ic_burger_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ic_close_popup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ic_close_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ic_dropdown_arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ic_fb_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ic_in_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ic_mouse_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ic_phone_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ic_preloader_green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ic_slider_arrow_right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ic_tg_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ic_tk_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ic_tw_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ic_vk_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ic_wp_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/informer/ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/informer/bg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/informer/bg_mob.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/informer/left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/informer/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/live-cap-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/live/live_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/not-found-number.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/philosophy/philosophy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/price.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pro-about/pro-about.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pro-advantages/pro-advantages-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pro-advantages/pro-advantages-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pro-advantages/pro-advantages-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pro-advantages/pro-advantages-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pro-cap/pro-cap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/program-cap/program-cap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/programs/tile-bg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/programs/tile-bg_lg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/share/ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/share/bg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/share/bg_md.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/share/bg_sm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/share/bg_xs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/share/left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/share/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/slide-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/technique/ic_technique_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/technique/ic_technique_2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/technique/ic_technique_3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/technique/ic_technique_4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/technique/ic_technique_5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/why-we/why-we-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/why-we/why-we-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/components/cap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/components/coaching.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/components/contact-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/components/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/components/gallery-slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/components/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/components/live-checkbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/components/live-sliders.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/components/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/components/more-events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/components/more-news.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/components/other-progam.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/components/popup-form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/components/popup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/components/pro-advantages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/libs/swiper-bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/about.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/approach-cap.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/article.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/cap.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/coaching.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/contact-map.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/dropdown.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/events-tile.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/events-tile__item.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/footer.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/gallery.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/header.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/informer.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/live-cap.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/live.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/menu.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/more-events.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/more-news.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/news-tile.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/news-tile__item.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/not-found.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/other-programs.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/philosophy.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/popup.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/price.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/pro-about.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/pro-advantages.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/pro-cap.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/program-cap.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/programs.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/share.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/technique.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/components/why-we.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/libs/swiper-bundle.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/pages/_style.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/pages/main.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/tools/app.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/tools/buttons.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/tools/fonts.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/tools/framework.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/tools/inputs.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/tools/links.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/variables.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/_variables.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/_layout/_connect-style.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/_layout/_head.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/_layout/_title.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/_layout/footer.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/_layout/header.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/_layout/layout.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/_layout/menu.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/_layout/scripts.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/approach/approach-cap.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/approach/why-we.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/article/article.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/article/more-events.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/article/more-news.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/article/share.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/contact/contact-map.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/dropdown.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/events-tile__item.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/events/events-tile.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/gallery.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/index/about.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/index/cap.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/index/coaching.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/index/informer.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/index/live.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/index/programs.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/live-cap.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/news-tile__item.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/news/news-tile.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/not-found/not-found.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/popup.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/pro/pro-about.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/pro/pro-advantages.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/pro/pro-cap.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/program-tile-item.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/program/other-programs.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/program/philosophy.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/program/price.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/program/program-cap.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/program/program-footer.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/components/program/technique.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/pages/_site-map.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/pages/approach.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/pages/contact.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/pages/events-article.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/pages/events.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/pages/index.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/pages/news-article.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/pages/news.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/pages/not-found.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/pages/pro-m-plus.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/views/pages/program.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/_site-map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/approach.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/events-article.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/news-article.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/news.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/not-found.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/pro-m-plus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/program.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/fonts/Floripa.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/fonts/Floripa.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/fonts/Montserrat-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/fonts/Montserrat-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/fonts/Montserrat-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/fonts/Montserrat-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/fonts/Montserrat-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/fonts/Montserrat-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/about/slide-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/about/slide-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/cap/cap-green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/cap/cap-green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/cap/slide-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/cap/slide-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/coaching/coaching-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/coaching/coaching-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/coaching/coaching-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/coaching/ic_arrow_left_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/coaching/ic_gate_left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/coaching/ic_gate_right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/coaching/ic_line.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/coaching/ic_round.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/contact-map/contact-placemark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/favicon/apple-touch-icon-114x114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/favicon/apple-touch-icon-120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/favicon/apple-touch-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/favicon/apple-touch-icon-152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/favicon/apple-touch-icon-57x57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/favicon/apple-touch-icon-60x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/favicon/apple-touch-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/favicon/apple-touch-icon-76x76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/favicon/favicon-128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/favicon/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/favicon/favicon-196x196.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/favicon/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/favicon/favicon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/favicon/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/favicon/mstile-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/favicon/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/favicon/mstile-310x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/favicon/mstile-310x310.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/favicon/mstile-70x70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/ic_burger_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/ic_close_popup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/ic_close_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/ic_dropdown_arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/ic_fb_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/ic_in_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/ic_mouse_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/ic_phone_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/ic_preloader_green.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/ic_slider_arrow_right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/ic_tg_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/ic_tk_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/ic_tw_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/ic_vk_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/ic_wp_white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/informer/ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/informer/bg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/informer/bg_mob.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/informer/left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/informer/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/live-cap-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/live/live_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/not-found-number.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/philosophy/philosophy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/price.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/pro-about/pro-about.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/pro-advantages/pro-advantages-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/pro-advantages/pro-advantages-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/pro-advantages/pro-advantages-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/pro-advantages/pro-advantages-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/pro-cap/pro-cap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/program-cap/program-cap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/programs/tile-bg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/programs/tile-bg_lg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/share/ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/share/bg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/share/bg_md.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/share/bg_sm.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/share/bg_xs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/share/left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/share/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/slide-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/technique/ic_technique_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/technique/ic_technique_2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/technique/ic_technique_3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/technique/ic_technique_4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/technique/ic_technique_5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/why-we/why-we-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/img/why-we/why-we-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/js/app.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prod (готовая вёрстка)/statics/js/libs.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2crE2NReMKaVcBwLer0Hd0g5WRp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\work\temp public repo\qwr\football-academy" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef5301e9-95e6-45cf-abea-a790d659d16d" name="Default Changelist" comment="" />
+      <created>1708861088168</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708861088168</updated>
+      <workItem from="1708861089297" duration="53000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
